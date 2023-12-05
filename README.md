@@ -2,7 +2,6 @@
 
 Ø¨Ø¹Ø¯ Ø§Ø² Ø¯Ø±ÛŒØ§ÙØª ÙØ§Ø³Øª Ø¨Ù‡ Ù„ÛŒÙ†Ú© Ø²ÛŒØ± Ø¨Ø±ÛŒØ¯ Ùˆ Ø§ÙØ²ÙˆÙ†Ù‡ Ø±Ø§ Ø¨Ù‡ Ù…Ø±ÙˆØ±Ú¯Ø± Ú©Ø±ÙˆÙ… Ø§Ø¶Ø§ÙÙ‡ Ú©Ù†ÛŒØ¯
 
-https://chrome.google.com/webstore/detail/json-beautifier-editor/lpopeocbeepakdnipejhlpcmifheolpl
 ------------------------------------------------------------------
 
 cd $HOME
@@ -23,6 +22,6 @@ PRIVATEKEY=""
 
 RECORD=""
 
-snarkos developer deploy "${APPNAME}.aleo" --private-key "${PRIVATEKEY}" --query "https://vm.aleo.org/api" --path "./${APPNAME}/build/" --broadcast "https://vm.aleo.org/api/testnet3/transaction/broadcast" --fee 600000 --record "${RECORD}"
+snarkos developer deploy "${APPNAME}.aleo" --private-key "${PRIVATEKEY}" --query "" --path "./${APPNAME}/build/" --broadcast "" --fee 600000 --record "${RECORD}"
 
     
