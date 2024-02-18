@@ -1,10 +1,12 @@
-@AleoFaucet send 10 credits to aleo1y9s2yr50paljp0rd8wtqzy6ue9cshyyukwfslx2vhpj588vnguzqnndumr
-
+{@AleoFaucet send 10 credits to aleo1y9s2yr50paljp0rd8wtqzy6ue9cshyyukwfslx2vhpj588vnguzqnndumr
+}
 ------------------------------------------------------------------
 
-cd $HOME
+{cd $HOME
+}
 
-mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
+{mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
+}
 
 WALLETADDRESS=""
 
